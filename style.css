@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+:root{
+    --bass-color:#FF5C8D;
+    --accent-color:#C92C51; 
+
+    --bass-font: Verdana, Geneva, Tahoma, sans-serif ;
+    --accent-font: 'Nothing You Could Do', cursive;
+}
+  
+*{
+    margin: 0;
+    padding: 0; 
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--bass-font);
+    color: var(--bass-color);
+}
+
+h1, h2{
+    font-family: var(--accent-font);
+    color: var(--accent-color);
+}
+
+.img-round{
+    width: 30vh;
+    height: 30vh;
+
+    border-radius: 100%;
+}
+
+header, main, footer{
+    display: flex; 
+
+padding:2em ;
+
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0.5em;
+}
+
+a{
+    color: var(--bass-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--accent-color);
+}
+
+.some-icons{
+    display: flex;
+
+    padding: 0.5em;
+
+    font-size: 2em; 
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em; 
+}
